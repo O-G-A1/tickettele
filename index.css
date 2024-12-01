@@ -10,7 +10,6 @@ body {
 :root {
   --primary-color: black;
   --primary-color1: rgba(255, 255, 255, 0.822);
-  --secondary-color: rgba(165, 42, 42, 0.801);
   --added-color: grey;
 }
 @media all and (max-width: 800px) {
@@ -26,7 +25,7 @@ body {
   header > a {
     font-size: 1rem;
     text-decoration: none;
-    color: var(--secondary-color);
+    color: var(--added-color);
   }
   header h2 {
     font-size: 1rem;
@@ -130,7 +129,7 @@ body {
     background-color: var(--added-color);
     font-size: 1.1rem;
     border-radius: 0.4rem;
-    padding: 0.8rem 5rem;
+    padding: 0.6rem 5rem;
     text-align: center;
   }
 }
