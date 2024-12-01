@@ -11,6 +11,7 @@ body {
   --primary-color: black;
   --primary-color1: rgba(255, 255, 255, 0.822);
   --secondary-color: rgba(165, 42, 42, 0.801);
+  --added-color: grey;
 }
 @media all and (max-width: 800px) {
   header {
@@ -54,12 +55,15 @@ body {
     display: none;
     list-style-type: none;
     position: absolute;
+    padding: 10px 20px;
     top: 150px;
     left: 0;
-    width: 90%;
+    width: 100%;
     color: var(--primary-color1);
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
+    background-color: var(--added-color);
+  }
+  .articles-list li {
+    margin-bottom: 10px;
   }
   h2 {
     text-align: center;
@@ -70,7 +74,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem 1rem;
+    padding: 1rem 2rem;
     gap: 2vh;
   }
 
@@ -80,7 +84,7 @@ body {
     width: 100%;
   }
   select {
-    height: 4vh;
+    height: 5vh;
     font-size: 0.9rem;
     width: 100%;
     border-radius: 0.4rem;
@@ -92,7 +96,7 @@ body {
     background-color: var(--secondary-color);
   }
   form input {
-    height: 3vh;
+    height: 4vh;
     border-radius: 0.4rem;
     border: 2px solid rgba(0, 0, 0, 0.733);
     outline: none;
@@ -121,11 +125,12 @@ body {
     background-color: var(--secondary-color);
   }
   .submit-btn {
-    border: 0.5px solid rgba(0, 0, 0, 0.733);
-    background-color: var(--secondary-color);
     font-size: 1rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.733);
+    background-color: var(--added-color);
+    font-size: 1.1rem;
     border-radius: 0.4rem;
-    padding: 0.3rem 3rem;
+    padding: 0.6rem 4rem;
     text-align: center;
   }
 }
