@@ -139,5 +139,7 @@ body {
   }
   .nextpage {
     background-color: var(--added-color);
+    color: var(--primary-color);
+    font-weight: 500;
   }
 }
