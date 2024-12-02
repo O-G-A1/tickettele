@@ -138,7 +138,7 @@ body {
     text-align: center;
   }
   .nextpage {
-    background-color: var(--added-color);
+    background-color: white;
     color: var(--primary-color);
     font-weight: 500;
   }
