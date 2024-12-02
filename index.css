@@ -132,4 +132,12 @@ body {
     padding: 0.6rem 5rem;
     text-align: center;
   }
+
+  .nextpagep {
+    padding: 25px;
+    text-align: center;
+  }
+  .nextpage {
+    background-color: var(--added-color);
+  }
 }
